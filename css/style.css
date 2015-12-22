@@ -1,0 +1,180 @@
+div{
+  margin: 0;
+  padding: 0;
+}
+
+/*Ciudad*/
+
+
+/* Ciudad - primera parte*/
+
+#primeraParte {
+  display: block;
+
+}
+/* Tipo de edificios */
+.ediB{
+   left: 130px;
+}
+    /* Edificios*/
+#edificios{
+  position: relative;
+  display: inline-block;
+}
+
+#edificio{
+    position: relative;
+    display: inline-block;
+    }
+  /* Torres */
+    #torreAlta{
+      position: relative;
+      height: 170px;
+      width: 80px;
+      background-color: black;
+      border-radius: 2px;
+        }
+    #torrePeque{
+      position: relative;
+      height: 120px;
+      width: 80px;
+      background-color: black;
+      top: -36px;
+    }
+        /* Ventanas */
+    #ventana{
+        position: relative;
+        }
+
+        #ventana{
+            display: inline-block;
+            position: relative;
+            height: 20px;
+            width: 15px;
+            background-color: red;
+            border-radius: 2px;
+            margin-bottom: 12px;
+            z-index: 9;
+            }
+        .vende {
+            top: -145px;
+            left: 20px;
+        }
+        .veniz {
+            top: -140px;
+            left: 30px;
+        }
+
+/* Calles */
+
+/* Tipo de calles */
+.callA{
+  left: 48px;
+}
+.callB{
+  left: 180px;
+}
+
+/* Calle Vertical */
+  #calleVertical{
+  position: relative;
+  display: inline-block;
+  top: -20px;
+
+  }
+    #calliz{
+      position: relative;
+      display: inline-block;
+      height: 270px;
+      width: 100px;
+      border-left: 15px solid black;
+      border-right: 10px dashed blue;
+      left: 5px;
+    }
+    #called{
+      display: inline-block;
+      height: 270px;
+      width: 100px;
+      border-right: 15px solid black;
+      border-left: 10px dashed blue;
+    }
+
+/* Calle horizontal */
+  #calleHorizontal{
+    display: inline-block;
+    position: relative;
+    top: -30px;
+  }
+    #calleSuperior{
+      height: 100px;
+      border-top: 15px solid black;
+      border-bottom: 10px dashed blue;
+    }
+    #calleInferior{
+      height: 100px;
+      border-top: 10px dashed blue;
+      border-bottom: 15px solid black;
+    }
+
+/* calle horizontal interseccion */
+
+#calleSuperiorIzquierda{
+  display: inline-block;
+  position: relative;
+  border-right: 10px dashed blue;
+  border-bottom: 10px dashed blue;
+  height: 110px;
+  width: 96px;
+  top: -1px;
+}
+
+#calleSuperiorDerecha{
+  display: inline-block;
+  position: relative;
+  border-left: 10px dashed blue;
+  border-bottom: 10px dashed blue;
+  height: 110px;
+  width: 96px;
+  top: -1px;
+  left: -5px;
+}
+
+#calleInferiorIzquierda{
+  display: inline-block;
+  position: relative;
+  border-right: 10px dashed blue;
+  border-top: 10px dashed blue;
+  height: 110px;
+  width: 96px;
+  top: -5px;
+
+}
+
+#calleInferiorDerecha{
+  display: inline-block;
+  position: relative;
+  border-left: 10px dashed blue;
+  border-top: 10px dashed blue;
+  height: 110px;
+  width: 96px;
+  top: -5px;
+  left: -5px;
+}
+
+/* partes de las calles */
+
+.callpri{
+  width: 320px;
+}
+.callseg{
+  width: 220px;
+}
+.callter{
+
+}
+.callcua{
+
+}
+.callqui{
+
+}
